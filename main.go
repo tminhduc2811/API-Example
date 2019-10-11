@@ -13,5 +13,4 @@ func main()  {
 	router = routers.SetupRoutes(router)
 	fmt.Println("Listening at 8080")
 	log.Fatal(http.ListenAndServe(":8080", router))
-
 }
